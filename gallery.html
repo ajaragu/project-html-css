@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <script src="https://kit.fontawesome.com/f6dc752420.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .gallerysec {
+            width: 100%;
+            background: #f7f7f7;
+            position: relative;
+            padding: 65px 50px;
+            padding-right: 10px;
+        }
+
+        .gallerysec h2 {
+            position: relative;
+            bottom: 30px;
+            text-align: center;
+        }
+
+        .gallerysec p {
+            text-align: center;
+            position: relative;
+            bottom: 25px;
+            font-size: 23px;
+        }
+
+        .gallerysec img {
+            position: relative;
+            padding-left: 15px;
+            padding-top: 15px;
+        }
+
+        .gallerysec img:hover,
+        i:hover,
+        .logo:hover {
+            transform: scale(1.1, 1.1);
+            /* transition-delay: 0.5s; */
+            transition-timing-function: ease-in-out;
+        }
+
+        .gallerysec i {
+            position: absolute;
+            bottom: 375px;
+            right: 20px;
+            font-size: 80px;
+        }
+
+        .details {
+            display: flex;
+            flex-direction: row;
+            padding: 0 30px;
+
+        }
+
+        .detail {
+            width: 380px;
+            height: 180px;
+            margin: 20px 15px;
+            color: #2f2f2f;
+            background-color: #f8f8f8;
+            padding: 18px 0px 0px 15px;
+            font: 20px/30px 'GOTHIC';
+        }
+
+        .detail h4 {
+            position: relative;
+            left: 60px;
+            bottom: 45px;
+            width: fit-content;
+        }
+
+        .detail p {
+            position: relative;
+            padding: 0 40px;
+            bottom: 25px;
+        }
+
+        .details :hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        .footer {
+            width: 100%;
+            height: fit-content;
+            background-color: #000;
+            color: #fff;
+            padding: 20px 15px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: absolute;
+            
+        }
+
+        .fcontent2 {
+            position: relative;
+            left: 10px;
+            text-transform: capitalize;
+        }
+
+        .footer-para1 {
+            color: #fff;
+            width: 260px;
+            margin: 8px;
+            text-align: justify;
+            text-transform: capitalize;
+        }
+
+        .fcontent2 ul li,
+        .fcontent3 ul li {
+            list-style: none;
+
+        }
+
+        .fcontent2 ul li a,
+        .fcontent3 ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .fcontent2 {
+            position: relative;
+            left: 60px;
+            line-height: 35px;
+            text-transform: uppercase;
+            color: #fff;
+            
+        }
+
+        .fcontent2 ul li a:hover,
+        .fcontent3 ul li a:hover {
+            color: aqua;
+        }
+
+        .fcontent3 {
+            position: relative;
+            left: 115px;
+            bottom: 9px;
+            line-height: 55px;
+            text-transform: uppercase;
+            padding: 0 15px;
+            color: #fff;
+            border-left: 1px solid white;
+            height: fit-content;
+        }
+
+        .fcontent4 {
+            position: relative;
+            left: 175px;
+            line-height: 35px;
+            border-left: 1px solid white;
+            height: 200px;
+            padding: 20px;
+        }
+
+        .footer i {
+            border: 1px solid #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 25px;
+            padding-top: 9px;
+            margin-right: 10px;
+        }
+
+        .footer-para2 {
+            border-top: 1px solid #fff;
+            text-align: center;
+            padding: 20px 280px;
+            line-height: 25px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gallerysec">
+        <h2>GALLERY</h2>
+        <p>Take a look at our past work to appreciate our expertise with classic décor ideas!</p>
+        <img src="gal-1.webp" alt="no more" />
+        <img src="gal-3.webp" alt="no more" />
+        <img src="gal-4.webp" alt="no more" />
+        <img src="gal-5.webp" alt="no more" />
+        <img src="gal-6.webp" alt="no more" />
+        <img src="gal-2.webp" alt="no more" />
+        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+    </div>
+    <div class="details">
+        <div class="detail" id="our-details">
+            <img src="int.jpg" alt="no img" />
+            <h4>6K CLIENTS</h4>
+            <p>We treasure our valuable and happy clients more than anything else!</p>
+        </div>
+        <div class="detail" id="our-details1">
+            <img src="int1.jpg" alt="no img" />
+            <h4>5 YEARS OF EXPERIENCE</h4>
+            <p>Our hard work and experience have brought us a decent reputation.</p>
+        </div>
+        <div class="detail" id="our-details2">
+            <img src="int2.jpg" alt="no img" />
+            <h4>2.5K PROJECTS</h4>
+            <p>This is just a number! We are counting ahead! We enjoy all our tasks!</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="fcontent1">
+            <img src="logo.png" class="logo" />
+            <p class="footer-para1">We are the undisputed leaders in balloons and other traditional decorations in Tamil
+                nadu.
+                We can make you feel
+                proud of hiring our décor service for all your celebrations!</p>
+        </div>
+        <div class="fcontent2 ">
+            <h2>Quick Link</h2>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">location</a></li>
+                <li><a href="#">packages</a></li>
+                <li><a href="#">talk to us</a></li>
+            </ul>
+        </div>
+        <div class="fcontent3">
+            <h2>Our Address</h2>
+            <div>
+                <ul>
+                    <li> <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></i>no,82 velacheri,
+                            chennai-28</a></li>
+                    <li> <a href="#"><i class="fa fa-phone-square" aria-hidden="true"></i>+917685421680</a></li>
+                    <li> <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i>+917685421680</a></li>
+                    <li> <a href="#"><i class="fa-solid fa-envelope" aria-hidden="true"></i>yeddecor@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fcontent4">
+            <h2>GET ON SOCIAL</h2>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        </div>
+        <div class="footer-para2">
+            <p>Creating memorable moments is the motto of TEIOT Balloon pro. Right from birthdays to wedding
+                decorations,
+                Always remember us, we can illuminate every corner of your heart with amazing balloon and flower
+                decorations.
+            </p>
+            <p>© 2023 Balloon Pro. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>

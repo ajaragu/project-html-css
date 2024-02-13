@@ -1,0 +1,656 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.container {
+    width: 100%;
+    height: 110vh;
+    background-image: url(https://m.media-amazon.com/images/I/71PZadI1ePL._SL1500_.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 100px 100px 100px 50px pink inset;
+
+}
+
+.tophead1 {
+    height: auto;
+    display: inline-block;
+    background-color: #fff;
+    color: #960069;
+    border-radius: 50px;
+    padding: 8px 16px;
+    margin: 8px;
+    text-decoration: none;
+}
+
+#tophead1 {
+    background-color: rgb(235 14 179);
+    text-align: center;
+    border-bottom: 1px solid #5e5656;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+.tophead1 i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+#tophead2 {
+    width: 100%;
+    padding: 15px 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #5e5656;
+    background-color: rgb(235 14 179);
+}
+
+#tophead2 ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+#tophead2 ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    left: 100px;
+    margin: 0 70px;
+
+}
+
+.logo {
+    width: 110px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.navbar {
+    width: 85%;
+
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 125px;
+    left: 500px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    display: block;
+    background-color: transparent;
+    color: #000;
+    padding: 10px 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+    color: blue;
+}
+
+.navbar i {
+    position: relative;
+    left: 125px;
+    bottom: 29px;
+}
+
+.subnavbar1 ul {
+    display: block;
+    width: 130px;
+    margin: 10px 0;
+    z-index: 1;
+}
+
+.subnavbar1 ul li a {
+    position: relative;
+    background-color: #00000015;
+    bottom: 110px;
+    right: 380px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.subnavbar2 ul {
+    display: block;
+    width: 150px;
+    margin: 10px 0;
+    z-index: 1;
+
+}
+
+.subnavbar2 ul li a {
+    position: relative;
+    background-color: #00000015;
+    bottom: 110px;
+    left: 25px;
+    width: 200px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.subnavbar3 ul {
+    display: block;
+    width: 100px;
+    margin: 10px 0;
+    z-index: 1;
+}
+
+.subnavbar3 ul li a {
+    position: relative;
+    background-color: #00000015;
+    bottom: 110px;
+    right: 115px;
+    width: 160px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.subnavbar1,
+.subnavbar2,
+.subnavbar3 {
+    display: none;
+}
+
+.navbar ul li:nth-child(2):hover .subnavbar1 {
+    display: block;
+}
+
+.navbar ul li:nth-child(5):hover .subnavbar2 {
+    display: block;
+}
+
+.navbar ul li:nth-child(4):hover .subnavbar3 {
+    display: block;
+}
+
+
+.content {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    padding-top: 28px;
+    margin-left: 280px;
+}
+
+.content h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(235, 14, 179);
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100px;
+    line-height: 25px;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 1px solid #080f0f;
+    background: white;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(235, 14, 179);
+    overflow: hidden;
+}
+
+button i {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+button:hover {
+    border: none;
+    background-color: rgb(14, 235, 224);
+}
+
+#about {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 60px;
+}
+
+
+.about {
+    width: 280px;
+    height: auto;
+    padding: 8px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    position: relative;
+    left: 55px;
+    bottom: 38px;
+}
+
+.about p {
+    position: relative;
+    left: 55px;
+    bottom: 20px;
+}
+
+#bor,
+#bor1,
+#bor2 {
+    border-left: 1px solid #080f0f;
+}
+
+.work {
+    width: 95%;
+    height: fit-content;
+    padding: 20px 50px;
+    margin: 40px;
+    position: relative;
+    top: 60px;
+    display: flex;
+}
+
+.imgw1 {
+    width: 120px;
+    height: 120px;
+}
+
+.imo {
+    position: absolute;
+    top: 415px;
+}
+
+.imo1 {
+    position: relative;
+    left: 18px;
+}
+
+.convey {
+    width: 600px;
+    height: fit-content;
+    position: relative;
+    left: 60px;
+    padding: 40px 0px;
+}
+
+.convey h2 {
+    text-align: center;
+    margin: 0 10px;
+    font-size: 40px;
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+}
+
+#pad {
+    width: 3px;
+    height: 30px;
+    background-color: #960069;
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    margin: 5px 0;
+}
+
+.convey p {
+    text-align: center;
+    margin: 0 10px;
+    font-size: 20px;
+    position: relative;
+    bottom: 70px;
+    right: 15px;
+}
+
+.convey ul li {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.convey ul li img {
+    position: relative;
+    top: 17px;
+    margin: 0 10px;
+}
+
+.convey button {
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+}
+
+.information {
+    width: 95%;
+    height: 550px;
+    margin: 80px 10px 120px 10px;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    top:35px;
+}
+
+.information1 {
+    width: 650px;
+    padding: 10px;
+}
+
+.information1 h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#pad2 {
+    width: 3px;
+    height: 30px;
+    background-color: #960069;
+    position: relative;
+    top: 17px;
+    left: 10px;
+    margin: 10px 10px;
+}
+
+.information1 h3 {
+    position: relative;
+    left: 25px;
+    bottom: 15px;
+    font-size: 18px;
+    padding: 0 8px;
+    text-transform: capitalize;
+}
+
+.information1 p {
+    position: relative;
+    right: 25px;
+    top: 30px;
+    text-align: justify;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 0 50px;
+}
+
+.imo2 {
+    position: relative;
+    left: 480px;
+    top: 475px;
+}
+
+.imo3 {
+    position: absolute;
+    left: 712px;
+}
+
+.gallerysec {
+    width: 100%;
+    background: #f7f7f7;
+    position: relative;
+    top: 100px;
+    padding: 65px 50px;
+    padding-right: 10px;
+}
+
+.gallerysec h2 {
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+}
+
+.gallerysec p {
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    font-size: 23px;
+}
+
+.gallerysec img {
+    position: relative;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.gallerysec img:hover,
+i:hover,
+.logo:hover {
+    transform: scale(1.1, 1.1);
+    /* transition-delay: 0.5s; */
+    transition-timing-function: ease-in-out;
+}
+
+.gallerysec i {
+    position: absolute;
+    bottom: 375px;
+    right: 20px;
+    font-size: 80px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    padding: 0 30px;
+    position: relative;
+    top: 100px;
+
+}
+
+.detail {
+    width: 380px;
+    height: 180px;
+    margin: 20px 15px;
+    color: #2f2f2f;
+    background-color: #f8f8f8;
+    padding: 18px 0px 0px 15px;
+    font: 20px/30px 'GOTHIC';
+}
+
+.detail h4 {
+    position: relative;
+    left: 60px;
+    bottom: 45px;
+    width: fit-content;
+}
+
+.detail p {
+    position: relative;
+    padding: 0 40px;
+    bottom: 25px;
+}
+
+.details :hover {
+    background-color: red;
+    color: #fff;
+}
+
+.contactme {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    padding: 50px;
+    margin: 25px 0;
+    position: relative;
+    top: 100px;
+}
+
+.imo4 {
+    position: relative;
+    right: 22px;
+    top: 545px;
+}
+
+.imo5 {
+    position: absolute;
+}
+
+
+.conectme {
+    width: 580px;
+    height: fit-content;
+    margin: 40px;
+    text-transform: uppercase;
+    position: relative;
+    left: 420px;
+
+}
+
+#pad1 {
+    width: 3px;
+    height: 25px;
+    background-color: #960069;
+    position: relative;
+    top: 30px;
+    margin: 5px 0;
+}
+
+.conectme p {
+    position: relative;
+    left: 10px;
+    line-height: 25px;
+}
+
+.conectme input,
+Select {
+    width: 95%;
+    border: none 2px rgb(57, 221, 213);
+    border-bottom: 2px solid #7f8585;
+    padding: 20px;
+    margin: 10px 0;
+
+}
+
+.conectme button,
+.convey button {
+    background-color: #960069;
+    color: #fff;
+}
+
+.conectme button:hover,
+.convey button:hover {
+    background-color: aqua;
+    color: #080f0f;
+}
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 100px;
+}
+
+.fcontent2 {
+    position: relative;
+    left: 10px;
+    text-transform: capitalize;
+}
+
+.footer-para1 {
+    color: #fff;
+    width: 260px;
+    margin: 8px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.fcontent2 ul li,
+.fcontent3 ul li {
+    list-style: none;
+
+}
+
+.fcontent2 ul li a,
+.fcontent3 ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fcontent2 {
+    position: relative;
+    left: 60px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.fcontent2 ul li a:hover,
+.fcontent3 ul li a:hover {
+    color: aqua;
+}
+
+.fcontent3 {
+    position: relative;
+    left: 115px;
+    bottom: 9px;
+    line-height: 55px;
+    text-transform: uppercase;
+    padding: 0 15px;
+    color: #fff;
+
+}
+
+.fcontent4 {
+    position: relative;
+    left: 175px;
+    line-height: 35px;
+
+}
+
+.footer i {
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 9px;
+    margin-right: 10px;
+}
+
+.footer-para2 {
+    border-top: 1px solid #fff;
+    text-align: center;
+    padding: 20px 280px;
+    line-height: 25px;
+
+}
